@@ -66,7 +66,7 @@ def run():
     word = random.choice(DB)
     spaces = ["_"] * len(word)
     attemps = 0
- 
+
     while True:
         os.system("cls")
         print("\tDescrubre la fruta\n")
